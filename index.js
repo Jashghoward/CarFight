@@ -27,6 +27,14 @@ const autoCompleteConfig = {
   }
 }
 
+
+
+
+
+
+
+
+
 createAutocomplete({
   ...autoCompleteConfig,
   root: document.querySelector('#left-autocomplete'),
