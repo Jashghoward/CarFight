@@ -1,3 +1,5 @@
+const { create } = require("json-server");
+
 const autoCompleteConfig = {
   renderOption(car) {
     const imgSrc = car.Poster === 'N/A' ? '' : movie.Poster;
@@ -24,3 +26,12 @@ const autoCompleteConfig = {
     return response.data.Search;
   }
 }
+
+createAutocomplete({
+  ...autoCompleteConfig,
+  root: document.querySelector('#left-autocomplete'),
+  onOptionSelect(car) {
+    document.querySelector('.tutorial').classList.add('is-hidden');
+    onCarSelect(car, document.querySelector('#left-summary'), 'left');
+  }
+})
