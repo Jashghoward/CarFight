@@ -67,6 +67,7 @@ const inCarSelect = async (car, summaryElement, side) => {
     runComparison();
   }
   // if statement for left and right search bars
+  // look into the if statement
 }
   const runComparison = () => {
     const leftSideStats = document.querySelectorAll('#left-summary . notification');
