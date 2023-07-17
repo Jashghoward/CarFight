@@ -10,3 +10,5 @@ There is will be two search bars where the page used will have two sides.
 This application is to use an autocomplete.js file that will work with the api to ensure ease of use for the search bars.
 
 After adding the autocorrect has added a change to the application that adds to the user experience.
+
+The cars will be compared on a few parameters.
