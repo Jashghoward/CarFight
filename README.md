@@ -11,5 +11,7 @@ This application is to use an autocomplete.js file that will work with the api t
 
 After adding the autocorrect has added a change to the application that adds to the user experience.
 
-The cars will be compared on a few parameters.
+The cars will be compared on a few parameters such as: transmisson, fuel type, make, model.
+
+Different parameters can be added or taken away.
 
