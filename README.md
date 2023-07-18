@@ -15,3 +15,6 @@ The cars will be compared on a few parameters such as: transmisson, fuel type, m
 
 Different parameters can be added or taken away.
 
+I want this aspplication to make it easy to compare the stats of different cars against one of each other.
+
+
