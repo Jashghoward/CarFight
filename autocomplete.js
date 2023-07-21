@@ -41,6 +41,8 @@ const createAutocomplete = ({
     });
 
     resultsWrapper.appendChild(option);
+
+  // the text wrapper 
   }
 };
   input.addEventListener('input', debounce(onInput, 500));
