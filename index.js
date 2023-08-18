@@ -55,6 +55,8 @@ const inCarSelect = async (car, summaryElement, side) => {
     }
   });
 
+
+  
   summaryElement.innerHTML = carTemplate(response.data);
 
   if (side === 'left') {
