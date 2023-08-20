@@ -63,6 +63,8 @@ const inCarSelect = async (car, summaryElement, side) => {
     rightCar = response.data;
   }
 
+  
+
   if (leftCar && rightCar) {
     runComparison();
   }
