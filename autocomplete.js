@@ -5,7 +5,7 @@ const createAutocomplete = ({
   inputValue,
   fetchData
 
-  
+
 }) => {
   root.innerHTML = `
     <label><b>Search</b></label>
@@ -16,6 +16,8 @@ const createAutocomplete = ({
       </div>
     </div>
   `;
+
+  
 
   const input = root.querySelector('input');
   const dropdown = root.querySelector('.dropdown');
