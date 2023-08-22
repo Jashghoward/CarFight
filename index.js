@@ -54,6 +54,7 @@ const inCarSelect = async (car, summaryElement, side) => {
         // check on api for the correct keys you will need to make this work
     }
   });
+  
 
   summaryElement.innerHTML = carTemplate(response.data);
 
